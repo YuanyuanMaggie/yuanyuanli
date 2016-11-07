@@ -16,7 +16,15 @@ $(window).load(function() {
       },
       itemSelector: '.project'
     });
-
+		
+		$(window).on("resize",function(){
+			$container.isotope({
+				masonry: {
+				columnWidth: 0
+				},
+				itemSelector: '.project'
+			});
+		});
     //Portfolio filters
     $('#filters').on( 'click', 'li', function() {
       $('#filters li').removeClass('active');
