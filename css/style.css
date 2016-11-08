@@ -873,7 +873,7 @@ ul.info-list li strong {
 	margin-bottom: 20px;
 }
 .project-description {
-	text-align: justify;
+	text-align: left;
     margin: 20px 0;
 }
 .project-wrapper{
@@ -881,9 +881,18 @@ ul.info-list li strong {
     padding-bottom: 20px;
     border-bottom: 1px dashed #ddd;
 }
+.project-wrapper h4{
+    margin:25px 0 15px;
+}
+.project-wrapper h5{
+    margin:20px 0 10px;
+}
 .project-wrapper .seeDemo{
     margin: 15px 0;
     text-align: center;
+}
+.project-wrapper ul {
+    list-style: circle;
 }
 .closeBtn{
     text-align: center;
@@ -893,13 +902,21 @@ ul.info-list li strong {
 	max-width: 780px;
 	margin-top: 30px;
 }
-
+.team-image{
+    max-width: 400px;
+}
+.pic h3{
+    margin: 30px 0 15px;
+}
 .video-container {
     padding: 0 0 60%;
     position: relative;
     width: 100%;
 }
-
+.sketchSlider{
+    display: flex;
+    flex-wrap: wrap;
+}
 .video-container iframe {
     border: 0 none;
     height: 100%;

@@ -44,7 +44,6 @@ $(window).load(function() {
 		$(project).modal({
 		  remote: projectUrl + ' #project'
 		})
-		
 		return false;
 	  
 	});
