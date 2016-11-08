@@ -925,7 +925,10 @@ ul.info-list li strong {
     top: 0;
     width: 100%;
 }
-
+.gif{
+    max-width: 500px;
+    margin:0 auto;
+}
 /* -------------------------
         6. BLOG BLOCK
 ------------------------- */
